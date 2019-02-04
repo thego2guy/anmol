@@ -517,7 +517,7 @@ color: #ffb300 !important;
 .footer-top p{
 color:#666666;
     font-family:Muli-Light;
-	font-size:20px;
+	font-size:18px;
 }
 .footer-top .fa{
 	color: #ffb300;
@@ -715,7 +715,7 @@ width:120px;
 }
 .bdr-botom{
 	height:1px;
-    width: 100%;
+    width: 80%;
     background-color: #898989;
     display: block;
     margin: 20px auto;
@@ -747,6 +747,9 @@ width:120px;
 }
 .w-left{
 	padding:50px 0px;
+}
+.de{
+	padding: 74px !important;
 }
 
 /* -------------------  how we enagae css ------------------------------------------------------------------------------ */
@@ -1088,9 +1091,9 @@ opacity: 0.9;
 }
 .profile img{
 	position: absolute;
-    top: -83px;
+    top: -58px;
     z-index: 99;
-    height: 420px;
+    height: 450px;
 }
 .timline{
 	    margin: 140px 0px;
@@ -1178,3 +1181,9 @@ opacity: 0.9;
 }
 
 /* -------------------  contact us css end ------------------------------------------------------------------------------ */
+
+.de1{padding-top:80px !important;}
+
+@media(max-width:768px){
+	.de1{padding-top:0px !important;}
+}

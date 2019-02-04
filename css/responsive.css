@@ -237,6 +237,9 @@ content:none;
 .why-main p{
 	font-size:16px;
 }
+.de{
+		padding: 0 !important;
+	}
 .why-cont-right{
 	padding:10px 30px;
 }
@@ -364,7 +367,7 @@ padding:0px 10px;
 	font-size:16px;
 }
 .footer-top p{
-	font-size:16px;
+	font-size:14px;
 }
 .footer-bottom p{
 	font-size:13px;
@@ -782,7 +785,19 @@ display: block;
 
 html{overflow-x:hidden;}
 
+@media(max-width:1600px){
+	.feserch{right:300px;}
+}
 
+@media(max-width:1200px){
+	.feserch{right:180px;}
+}
+@media(max-width:767px){
+	.feserch{right:70px; top:44px;}
+}
+@media(max-width:640px){
+	.feserch{right:70px; top:25px;}
+}
 
 
 
