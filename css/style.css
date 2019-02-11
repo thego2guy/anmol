@@ -1182,7 +1182,12 @@ opacity: 0.9;
 
 /* -------------------  contact us css end ------------------------------------------------------------------------------ */
 
-.de1{padding-top:80px !important;}
+.de1{padding-top:15px !important;}
+.wade-1{margin-top: 0;}
+
+@media(max-width:991px){
+	.de1{padding-top:0px !important; margin-bottom: 35px;}
+}
 
 @media(max-width:768px){
 	.de1{padding-top:0px !important;}
